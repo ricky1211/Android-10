@@ -30,4 +30,4 @@ dengan tampilan sebagai berikut :
 <img src="https://github.com/GilarSumilar/HelloAppTI22A4/blob/main/Gambar/1.PNG" alt="Tugas" style="width: 40%;"/>
 
 ### Demo Aplikasi
-<img src="https://github.com/GilarSumilar/HelloAppTI22A4/blob/main/Gambar/Animation2.gif" alt="Tugas" style="width: 60%;"/>
+<img src="https://github.com/ricky1211/Android-10/blob/main/DemoRickyyAppS.gif" alt="Tugas" style="width: 60%;"/>
