@@ -305,20 +305,19 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView8"
+                        android:id="@+id/imageView7"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="16dp"
-                        android:layout_weight="1" />
+                        android:layout_height="103dp"
+                        app:srcCompat="@drawable/baseline_movie_24" />
 
                     <TextView
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="42dp"
                         android:fontFamily="serif"
-                        android:text="Empty"
+                        android:text="Movies"
                         android:textAlignment="center"
-                        android:textSize="18dp"
+                        android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

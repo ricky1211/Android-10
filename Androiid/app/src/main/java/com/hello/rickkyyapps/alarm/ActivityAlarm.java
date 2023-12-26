@@ -1,4 +1,4 @@
-package com.hello.rickkyyapps;
+package com.hello.rickkyyapps.alarm;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,8 @@ import android.widget.TimePicker;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import com.hello.rickkyyapps.R;
+
 import java.util.Calendar;
 
 public class ActivityAlarm extends AppCompatActivity {
@@ -22,7 +24,7 @@ public class ActivityAlarm extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alarm);
+        setContentView( R.layout.activity_alarm);
         alarmTimePicker = (TimePicker) findViewById(R.id.timePicker);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
     }

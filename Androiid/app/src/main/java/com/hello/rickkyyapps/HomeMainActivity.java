@@ -6,6 +6,9 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import com.hello.rickkyyapps.alarm.ActivityAlarm;
+import com.hello.rickkyyapps.fragment.ViewPagerActivity;
+
 
 public class HomeMainActivity extends AppCompatActivity {
     CardView tombolSatu;
@@ -108,9 +111,8 @@ public class HomeMainActivity extends AppCompatActivity {
         tombolDelapan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Ketika tombolDua ditekan, lakukan aksi yang diinginkan
-                // Misalnya, pindah ke aktivitas lain atau jalankan fungsi khusus
-                Intent intent = new Intent(HomeMainActivity.this, MainHelloActivity.class);
+
+                Intent intent = new Intent(HomeMainActivity.this, ViewPagerActivity.class);
                 startActivity(intent);
             }
         });

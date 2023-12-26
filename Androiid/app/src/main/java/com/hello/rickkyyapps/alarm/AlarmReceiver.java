@@ -1,4 +1,4 @@
-package com.hello.rickkyyapps;;
+package com.hello.rickkyyapps.alarm;;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

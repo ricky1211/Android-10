@@ -10,6 +10,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="bg">#000080</color>
     <color name="gold">#FFD700</color>
+    <color name="grey">#20262B</color>
+    <color name="milk">#c5bd9d</color>
 
 
     <color name="colorFibonacciBlue">#0000FF</color>

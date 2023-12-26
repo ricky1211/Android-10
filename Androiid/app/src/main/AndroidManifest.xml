@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RickkyyAppS">
 
-        <receiver android:name=".AlarmReceiver"></receiver>
+        <receiver android:name=".alarm.AlarmReceiver"></receiver>
 
         <activity
             android:name=".MainSplashActivity"
@@ -59,17 +59,34 @@
             android:name=".MainActivity"
             android:exported="false">
         </activity>
+
         <activity
             android:name=".MainCount"
             android:exported="false">
         </activity>
+
         <activity
-            android:name=".ActivityAlarm"
+            android:name=".fragment.ViewPagerActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".sinopsis.action.SinopsisNonStop"
             android:exported="false">
         </activity>
 
+        <activity
+            android:name=".sinopsis.comedy.SinopsisCekTokoSebelah"
+            android:exported="false">
+        </activity>
 
+        <activity
+            android:name=".alarm.ActivityAlarm"
+            android:exported="false">
+        </activity>
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
     </application>
 
